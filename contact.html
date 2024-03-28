@@ -3,24 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
+<main>
     <title>Contact Page</title>
 </head>
 <body>
+    <h1>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</h1>
+<body>
+    <h3>Contact Information Here</h3>
     
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="birthdate">Birthday</label>
+        <input type="text" id="birthdate" name="birthdate" placeholder="Birthday...">
+        <label for="favouritecolor">Favourite Color</label>
+        <input type="color" id="favouritecolor" name="favouritecolor" value="#ff0000">
+    
+        <label for="phone">Phone Numer</label>
+        <input type="tel" id="phone" name="phone" placeholder="519-823-8313"">
+        
+        <label for="subject">Enter Any Extra Information Here</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+</main>
 </body>
 </html>
-<div class="container">
-    <form action="action_page.php">
-        <label for="firstName">First Name</label>
-        <input type="text" id="firstName" name="firstname" placeholder="First name here...">
 
-        <label for="lastName">Last Name</label>
-        <input type="text" id="lastName" name="lastname" placeholder="Late name here...">
 
-        <label for="country">Country</label>
-        <input type="text" id="country" name="usercountry" placeholder="Your country here...">
-        
-        <input type="submit" value="Submit Here"
-    </form>
-    
-</div>
+
+<footer property="clear"; style="border:solid; border-color:black; text-align: center;">Joel Belanger 2024</footer>
+
+
+</html>
